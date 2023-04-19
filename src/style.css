@@ -1,9 +1,4 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.wrap {
-  heightflex: 1;
+p {
+  color: red;
 }
