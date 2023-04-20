@@ -1,10 +1,4 @@
 /* eslint-disable */
-import "bootstrap";
-import "./style.css";
-
-import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
-
 window.onload = function() {
   //write your code here
   let when = [
@@ -22,7 +16,7 @@ window.onload = function() {
     " old driver"
   ];
   let action = [
-    " ate",
+    " ate my",
     " took my",
     " crushed",
     " yelled at my",
@@ -32,8 +26,8 @@ window.onload = function() {
   ];
   let what = [
     " my homework",
-    " the keys",
-    " the car",
+    " keys",
+    " car",
     " shirt",
     " computer",
     " phone",

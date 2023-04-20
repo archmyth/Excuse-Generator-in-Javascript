@@ -1,5 +1,12 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
-p {
+h1{
   color: red;
-  background: green;
+}
+.wrap {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+#theexcuse {
+  text-align: center;
 }
