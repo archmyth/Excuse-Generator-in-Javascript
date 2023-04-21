@@ -1,6 +1,14 @@
 /* eslint-disable */
-window.onload = function() {
-  //write your code here
+import "bootstrap";
+import "./style.css";
+import { Generator } from "webpack";
+window.onload = () => {
+  //   //write your code here
+  document.querySelector("#btn").addEventListener("click", () => {
+    document.querySelector("#theexcuse").innerHTML = generateExecuse();
+  });
+};
+let generateExecuse = () => {
   let when = [
     "Before the class",
     "When I finished",
@@ -48,6 +56,6 @@ window.onload = function() {
   let rdm4 = Math.floor(Math.random() * what.length);
   let rdm5 = Math.floor(Math.random() * where.length);
 
-  document.querySelector("#theexcuse").innerHTML =
-    when[rdm1] + who[rdm2] + action[rdm3] + what[rdm4] + where[rdm5];
+  // document.querySelector("#theexcuse").innerHTML =
+  return when[rdm1] + who[rdm2] + action[rdm3] + what[rdm4] + where[rdm5];
 };

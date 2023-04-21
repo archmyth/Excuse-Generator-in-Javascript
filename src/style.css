@@ -1,12 +1,3 @@
-h1{
-  color: red;
-}
-.wrap {
-  position: absolute;
-  text-align: center;
-  width: 100%;
-}
-
-#theexcuse {
-  text-align: center;
+h1 {
+  color: rgb(6, 6, 6);
 }
